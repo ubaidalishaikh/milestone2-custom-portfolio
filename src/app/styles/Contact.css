@@ -1,0 +1,145 @@
+General Styles
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 0;
+  }
+  
+  .heading h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .heading p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #4f46e5;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #4f46e5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: #3730a3;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .contact-info a {
+    color: #4f46e5;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+    color: #fff;
+    background: #4f46e5;
+    padding: 8px 12px;
+    border-radius: 50%;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .social-links a:hover {
+    background: #3730a3;
+  }
+  
+
+  .contact-h1{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
