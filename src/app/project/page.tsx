@@ -1,5 +1,6 @@
 import React from "react"
 import "../../app/styles/Project.css"
+import Image from "next/image"
 
 
 export default function Project(){
@@ -11,7 +12,7 @@ export default function Project(){
       <div className="product-grid">
         <div className="product-card">
           <a href="https://tech-force-pakistan.vercel.app/" className="product-image">
-            <img src="/download.png" alt="Product Image"/>
+            <Image src="/download.png" alt="Product Image"/>
           </a>
           <div className="product-info">
             <p className="product-category">Website</p>
@@ -22,7 +23,7 @@ export default function Project(){
 
         <div className="product-card">
           <a href="https://hackathon-restaurent.vercel.app/" className="product-image">
-            <img src="/food.png" alt="Product Image"/>
+            <Image src="/food.png" alt="Product Image"/>
           </a>
           <div className="product-info">
             <p className="product-category">Website</p>
@@ -33,7 +34,7 @@ export default function Project(){
 
         <div className="product-card">
           <a href="https://static-resume-pi-one.vercel.app/" className="product-image">
-            <img src="/resume.png" alt="Product Image"/>
+            <Image src="/resume.png" alt="Product Image"/>
           </a>
           <div className="product-info">
             <p className="product-category">Resume Builder</p>
@@ -44,7 +45,7 @@ export default function Project(){
 
         <div className="product-card">
           <a href="https://persnol-portfolio-phi.vercel.app/" className="product-image">
-            <img src="/portfolio.png" alt="Product Image"/>
+            <Image src="/portfolio.png" alt="Product Image"/>
           </a>
           <div className="product-info">
             <p className="product-category">Portfolio</p>

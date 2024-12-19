@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 
 export default function Home() {
   return (
@@ -18,7 +20,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-image">
-          <img src="hero.png" alt="hero image" />
+          <Image src="hero.png" alt="hero image" />
         </div>
       </div>
     </section>

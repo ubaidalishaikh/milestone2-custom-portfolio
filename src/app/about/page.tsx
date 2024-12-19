@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 export default function About() {
   return (
     <div>
@@ -9,7 +11,7 @@ export default function About() {
     <h1 className="about-heading">ABOUT ME</h1>
 
         <div className="container">
-          <img
+          <Image
             className="section-image"
             alt="about Page Photo"
             src="hero.png"
